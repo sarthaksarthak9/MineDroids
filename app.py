@@ -60,3 +60,5 @@ def main():
         st.write("Processed Text:")
         st.write(translated_output)
 
+if __name__ == "__main__":
+    main()
