@@ -78,15 +78,3 @@ def contact_page():
     display_logo()
     st.title("Contact Page")
     st.write("Contact us at contact@example.com")
-
-# Page navigation logic
-if menu == "Home":
-    home_page()
-elif menu == "ChatBot":
-    chatbot_page()
-elif menu == "PDF_Reader":
-    pdf_reader_page()
-elif menu == "Mobile_Device":
-    mobile_device()
-elif menu == "Contact":
-    contact_page()
